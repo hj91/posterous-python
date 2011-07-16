@@ -34,14 +34,11 @@ import posterous
 import xmpp
 import codecs
 
+#refactoring needed here..
 
 user='username@gmail.com'
 passwd='gmailpasswd'
 server='gmail.com'
-
-
-#title is not needed for P2 theme. for the rest of themes, date title dosent change. ToDo it.
-
 
 api = posterous.API('username','passwd')
 sites = api.get_sites()
